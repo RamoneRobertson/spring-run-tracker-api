@@ -14,10 +14,25 @@ public class Activity {
 
     // Tells the database to auto-generate id values (using AUTO_INCREMENT in MySQL/PostgreSQL).
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+    // Setting attributes
     private Long id;
     private double distance;
     private Instant startTime;
     private Instant endTime;
+    private Long duration;
+
+    public double getDistance() {
+        return distance;
+    }
+
+    public void setStartTime(Instant startTime){
+        this.
+    }
+
+    public Instant getStartTime() {
+        return startTime;
+    }
 
 
 }
