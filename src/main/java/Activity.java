@@ -21,18 +21,17 @@ public class Activity {
     private Instant startTime;
     private Instant endTime;
     private Long duration;
+    private double pace;
 
     public double getDistance() {
         return distance;
-    }
-
-    public void setStartTime(Instant startTime){
-        this.
     }
 
     public Instant getStartTime() {
         return startTime;
     }
 
-
+    public Instant getEndTime(){
+        return endTime;
+    }
 }
